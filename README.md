@@ -1,1 +1,1 @@
-# NMC Teacher v0.3
+# v0.4 Premium Homepage Prototype
