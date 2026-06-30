@@ -1,10 +1,13 @@
-*{box-sizing:border-box}body{margin:0;font-family:Poppins,sans-serif;background:#f4f7fb}
-.top{display:flex;justify-content:space-between;align-items:center;padding:15px 8%;background:#0D47A1;color:#fff;position:sticky;top:0}
-.logo{font-size:28px;font-weight:700}
-nav a{color:#fff;text-decoration:none;margin:0 10px;font-weight:600}
-.hero{padding:80px 20px;text-align:center;background:linear-gradient(135deg,#1565C0,#42A5F5);color:#fff}
-.hero h1{font-size:42px;margin:0}
-.btn{display:inline-block;margin-top:20px;background:#FF9800;color:#fff;padding:12px 22px;border-radius:30px;text-decoration:none}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:40px 8%}
-.card{background:#fff;padding:30px;border-radius:16px;box-shadow:0 6px 18px rgba(0,0,0,.1);text-align:center;font-weight:600}
-footer{text-align:center;background:#0D47A1;color:#fff;padding:20px}
+*{box-sizing:border-box}body{margin:0;font-family:Poppins,sans-serif;background:#f4f7fb;color:#222}
+.topbar{background:#ff9800;color:#fff;padding:8px;text-align:center;font-weight:600}
+header{display:flex;align-items:center;justify-content:space-between;background:#0d47a1;color:#fff;padding:15px 5%;position:sticky;top:0}
+.logo{font-size:28px;font-weight:700}.search{padding:10px;border-radius:20px;border:none;width:220px}
+#themeBtn{padding:10px;border:none;border-radius:50%;cursor:pointer}
+nav{display:flex;justify-content:center;gap:20px;background:#1565c0;padding:12px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-weight:600}
+.hero{padding:70px 20px;text-align:center;background:linear-gradient(135deg,#1565c0,#42a5f5);color:#fff}
+.btn{display:inline-block;background:#ff9800;color:#fff;padding:12px 24px;border-radius:25px;text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:40px 5%}
+.card{background:#fff;padding:30px;border-radius:16px;box-shadow:0 5px 15px rgba(0,0,0,.1);text-align:center}
+.dark{background:#121212;color:#eee}.dark .card{background:#1e1e1e}.dark nav,.dark header{background:#111}
+footer{text-align:center;background:#0d47a1;color:#fff;padding:20px}

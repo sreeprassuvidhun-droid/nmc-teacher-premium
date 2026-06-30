@@ -1,1 +1,1 @@
-console.log("NMC Teacher Portal v0.2 loaded");
+document.getElementById('themeBtn').onclick=function(){document.body.classList.toggle('dark');};
