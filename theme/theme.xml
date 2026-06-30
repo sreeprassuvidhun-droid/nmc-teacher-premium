@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html
+    b:version='2'
+    class='v2'
+    expr:dir='data:blog.languageDirection'
+    xmlns='http://www.w3.org/1999/xhtml'
+    xmlns:b='http://www.google.com/2005/gml/b'
+    xmlns:data='http://www.google.com/2005/gml/data'
+    xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+  <b:include data='blog' name='all-head-content'/>
+  <title><data:blog.pageTitle/></title>
+</head>
+
+<body>
+
+<b:section id='header' showaddelement='yes'/>
+
+<b:section id='main' showaddelement='yes'/>
+
+<b:section id='sidebar' showaddelement='yes'/>
+
+<b:section id='footer' showaddelement='yes'/>
+
+</body>
+</html>
