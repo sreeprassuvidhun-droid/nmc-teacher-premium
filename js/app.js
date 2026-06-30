@@ -1,3 +1,1 @@
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("NMC Teacher Portal Loaded Successfully!");
-});
+console.log("NMC Teacher Portal v0.2 loaded");

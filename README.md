@@ -1,3 +1,1 @@
-# NMC TEACHER Portal
-
-A professional Blogger project.
+# NMC Teacher Portal v0.2 Homepage Prototype
